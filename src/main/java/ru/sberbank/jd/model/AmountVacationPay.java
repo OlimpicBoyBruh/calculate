@@ -9,4 +9,11 @@ import lombok.Setter;
 @AllArgsConstructor
 public class AmountVacationPay {
     private double amount;
+
+    @Override
+    public String toString() {
+        return "AmountVacationPay{" +
+                "amount=" + amount +
+                '}';
+    }
 }

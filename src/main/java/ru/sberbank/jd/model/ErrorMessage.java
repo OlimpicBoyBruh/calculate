@@ -8,9 +8,6 @@ import lombok.Setter;
 public class ErrorMessage {
     private String message;
 
-    public ErrorMessage() {
-    }
-
     public ErrorMessage(String message) {
         this.message = message;
     }
